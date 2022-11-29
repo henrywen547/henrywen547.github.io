@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>ToDo List</title>
+    </head>
+    <body>
+    <header>
+        <h1 class=""></h1>
+    </header>
+    <section class="card">
+        <form name="add_list">
+            <div>
+                <p class="inline">代辦清單</p>
+                <input type="text" id="todo_title" class="text">
+            </div>
+            <div>
+                <p class="inline">到期日期</p>
+                <input class="inline date" id="month" type="number" min="1" max="12" placeholder="M" required>
+                <input class="date" id="date" type="number" min="1" max="31" placeholder="D" required>
+                <button id="submit" type="submit" class="submit">Add To List</button>
+            </div>
+        </form>
+    </section>
+    <section id="Insert_section">
+        <div>
+            
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
