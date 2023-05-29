@@ -1,0 +1,28 @@
+/*(3) 網頁中使用了 5 種不同的 CSS 語法所設計的特效，相關語法敘述皆須置於名稱為 "mystyle.css" 的檔案中*/
+body{
+    background-color: cadetblue;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+.numInput{
+    background-color: wheat;
+    border-color: cadetblue;
+    border-width: 0cm;
+}
+button{
+    background-color: wheat;
+    border-color: cadetblue;
+    border-width: 0cm;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.rule{
+    text-align: left;
+}
